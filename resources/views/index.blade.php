@@ -199,7 +199,6 @@
         		// $(this).attr("disabled", true);
         	// });
         	var google_api_key = "{{ env('MIX_GOOGLE_API_KEY') }}"
-        	console.log('MIX_GOOGLE_API_KEY: ', google_api_key)
         </script>
 
         <script :src="`https://maps.googleapis.com/maps/api/js?key=${google_api_key}&callback=initMap`"
