@@ -187,22 +187,25 @@
 		</div>
 
 		<!-- Scripts -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script :src="`https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js`"></script>
       	<script src="{{ asset('/js/app.js') }}"></script>
 
 		<!-- Google Maps -->
-      	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuefeW6qmAGwWenc0MXAPJ-XylDLxyu78&callback=initMap"
+        <script>
+        	// $(document).ready(function() {
+        		// $("#submitButton").attr("disabled", false);
+        	// });
+        	// $("#submitButton").click(function() {
+        		// $(this).attr("disabled", true);
+        	// });
+        	var google_api_key = "{{ env('MIX_GOOGLE_API_KEY') }}"
+        	console.log('MIX_GOOGLE_API_KEY: ', google_api_key)
+        </script>
+
+        <script :src="`https://maps.googleapis.com/maps/api/js?key=${google_api_key}&callback=initMap`"
         async defer></script>
 
 		<!-- Disable send message button after click -->
-        <script>
-        	$(document).ready(function() {
-        		// $("#submitButton").attr("disabled", false);
-        	});
-        	$("#submitButton").click(function() {
-        		// $(this).attr("disabled", true);
-        	});
-        </script>
 
         <!-- VeeValidate -->
   		{{-- // <script src="https://cdn.jsdelivr.net/npm/vee-validate@latest/dist/vee-validate.js"></script> --}}
