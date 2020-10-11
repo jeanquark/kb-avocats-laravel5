@@ -36,8 +36,16 @@ library.add(faAngleDown)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 /* Vue Slide Up and Down */
-import SlideUpDown from 'vue-slide-up-down'
-Vue.component('slide-up-down', SlideUpDown)
+// import SlideUpDown from 'vue-slide-up-down'
+// Vue.component('slide-up-down', SlideUpDown)
+
+/* Vue carousel */
+// import { VueAgile } from 'vue-agile'
+// Vue.component('vue-carousel', VueAgile)
+
+// import { Carousel, Slide } from 'vue-carousel'
+// Vue.component('vue-carousel', Carousel)
+// Vue.component('vue-slide', Slide)
 
 /**
  * The following block of code may be used to automatically register your
@@ -52,6 +60,8 @@ Vue.component('slide-up-down', SlideUpDown)
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('contact-form', require('./components/ContactForm.vue').default);
+Vue.component('vue-carousel', require('./components/Carousel.vue').default);
+Vue.component('lawyers-description', require('./components/LawyersDescription.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -65,21 +75,21 @@ const app = new Vue({
     },
     data () {
 		return {
-			showMoreCyril: false,
-			showMoreGabriele: false,
+			// showMoreCyril: false,
+			// showMoreGabriele: false,
 		}	
 	},
 	computed: {
 
 	},
 	methods: {
-		toggleShow (lawyer) {
-			// console.log('toggleShow: ', lawyer)
-			if (lawyer === 'cyril') {
-				this.showMoreCyril = !this.showMoreCyril
-			} else {
-				this.showMoreGabriele = !this.showMoreGabriele
-			}
-		}
+		// toggleShow (lawyer) {
+		// 	// console.log('toggleShow: ', lawyer)
+		// 	if (lawyer === 'cyril') {
+		// 		this.showMoreCyril = !this.showMoreCyril
+		// 	} else {
+		// 		this.showMoreGabriele = !this.showMoreGabriele
+		// 	}
+		// }
 	}
 });
