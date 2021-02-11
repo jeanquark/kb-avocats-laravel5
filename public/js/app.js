@@ -10991,7 +10991,13 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       showMoreCyril: false,
-      showMoreGabriele: false
+      showMoreGabriele: false,
+      imgCyril: '/images/cyril_nb-min.jpg',
+      imgCyrilNb: '/images/cyril_nb-min.jpg',
+      imgCyrilColor: '/images/cyril-min.jpg',
+      imgGabriele: '/images/gabriele_nb-min.jpg',
+      imgGabrieleNb: '/images/gabriele_nb-min.jpg',
+      imgGabrieleColor: '/images/gabriele-min.jpg'
     };
   },
   methods: {
@@ -54978,7 +54984,7 @@ var render = function() {
         autoplay: true,
         autoplayHoverPause: false,
         autoplayTimeout: 3000,
-        loop: true,
+        loop: false,
         "mouse-drag": false,
         easing: "ease-in-out",
         speed: 1000
@@ -55430,32 +55436,37 @@ var render = function() {
             [
               _c("img", {
                 staticClass: "rounded float-right",
-                staticStyle: { width: "50%", padding: "0px 0px 0px 10px" },
-                attrs: {
-                  src: "/images/cyril_kleger2-min.jpg",
-                  alt: "Photo Cyril Kleger"
+                staticStyle: { width: "50%", padding: "0px 0px 0px 20px" },
+                attrs: { src: _vm.imgCyril, alt: "Photo Cyril Kleger" },
+                on: {
+                  mouseover: function($event) {
+                    _vm.imgCyril = _vm.imgCyrilColor
+                  },
+                  mouseleave: function($event) {
+                    _vm.imgCyril = _vm.imgCyrilNb
+                  }
                 }
               }),
               _vm._v(
-                "\r\n\t\t\t\t\t\t\t\tInscrit au barreau de Neuchâtel, Cyril Kleger exerce son activité essentiellement en\r\n\t\t\t\t\t\t\t\tmatière de droit pénal mais intervient régulièrement dans le cadre des litiges\r\n\t\t\t\t\t\t\t\tmatrimoniaux et des droits des contrats.\r\n\t\t\t\t\t\t\t\tEn parallèle de son activité d’avocat, il revêt la fonction de Juge d’instruction auprès\r\n\t\t\t\t\t\t\t\tde la Justice militaire."
+                "\n\t\t\t\t\t\tInscrit au barreau de Neuchâtel, Cyril Kleger exerce son activité essentiellement en\n\t\t\t\t\t\tmatière de droit pénal mais intervient régulièrement dans le cadre des litiges\n\t\t\t\t\t\tmatrimoniaux et des droits des contrats.\n\t\t\t\t\t\tEn parallèle de son activité d’avocat, il revêt la fonction de Juge d’instruction auprès\n\t\t\t\t\t\tde la Justice militaire."
               ),
               _c("br"),
               _vm._v(
-                "\r\n\t\t\t\t\t\t\t\tNé en 1988, il est titulaire d’une Maîtrise en droit de l’Université de Neuchâtel et\r\n\t\t\t\t\t\t\t\ttitulaire du Brevet d’Avocat Bernois. Il vient d'achever récemment un "
+                "\n\t\t\t\t\t\tNé en 1988, il est titulaire d’une Maîtrise en droit de l’Université de Neuchâtel et\n\t\t\t\t\t\ttitulaire du Brevet d’Avocat Bernois. Il vient d'achever récemment un "
               ),
               _c("i", [
-                _vm._v("Certificate of\r\n\t\t\t\t\t\t\t\t\tAdvanced Studies")
+                _vm._v("Certificate of\n\t\t\t\t\t\t\tAdvanced Studies")
               ]),
               _vm._v(
-                " en magistrature pénale dans sa discipline de\r\n\t\t\t\t\t\t\t\tprédilection."
+                " en magistrature pénale dans sa discipline de\n\t\t\t\t\t\tprédilection."
               ),
               _c("br"),
               _vm._v(
-                "\r\n\t\t\t\t\t\t\t\tMembre fondateur du Jeune Barreau Neuchâtelois dont il assume le service de permanence\r\n\t\t\t\t\t\t\t\tdes avocats de première heure, Cyril Kleger cultive un goût prononcé pour les lettres,\r\n\t\t\t\t\t\t\t\tla presse et le sport."
+                "\n\t\t\t\t\t\tMembre fondateur du Jeune Barreau Neuchâtelois dont il assume le service de permanence\n\t\t\t\t\t\tdes avocats de première heure, Cyril Kleger cultive un goût prononcé pour les lettres,\n\t\t\t\t\t\tla presse et le sport."
               ),
               _c("br"),
               _vm._v(
-                "\r\n\t\t\t\t\t\t\t\tAncien arbitre de première ligue de football, Cyril Kleger garde encore un contact\r\n\t\t\t\t\t\t\t\trégulier avec le milieu du ballon rond et siège dans la Commission des arbitres de\r\n\t\t\t\t\t\t\t\tl’ACVF en sa qualité de Chef d’instruction."
+                "\n\t\t\t\t\t\tAncien arbitre de première ligue de football, Cyril Kleger garde encore un contact\n\t\t\t\t\t\trégulier avec le milieu du ballon rond et siège dans la Commission des arbitres de\n\t\t\t\t\t\tl’ACVF en sa qualité de Chef d’instruction."
               ),
               _c("br"),
               _vm._v(" "),
@@ -55476,7 +55487,7 @@ var render = function() {
                       ? _c(
                           "span",
                           [
-                            _vm._v("Moins\r\n\t\t\t\t\t\t\t\t\t\t\t"),
+                            _vm._v("Moins\n\t\t\t\t\t\t\t\t\t"),
                             _c("font-awesome-icon", {
                               attrs: { icon: "angle-up" }
                             })
@@ -55486,7 +55497,7 @@ var render = function() {
                       : _c(
                           "span",
                           [
-                            _vm._v("Plus\r\n\t\t\t\t\t\t\t\t\t\t\t"),
+                            _vm._v("Plus\n\t\t\t\t\t\t\t\t\t"),
                             _c("font-awesome-icon", {
                               attrs: { icon: "angle-down" }
                             })
@@ -55513,7 +55524,7 @@ var render = function() {
                         _vm._v(" "),
                         _c("li", [
                           _vm._v(
-                            "Membre de l’Ordre des Avocats Neuchâtelois et de l’Association des\r\n\t\t\t\t\t\t\t\t\t\t\t\tAvocats Bernois"
+                            "Membre de l’Ordre des Avocats Neuchâtelois et de l’Association des\n\t\t\t\t\t\t\t\t\t\tAvocats Bernois"
                           )
                         ]),
                         _vm._v(" "),
@@ -55525,7 +55536,7 @@ var render = function() {
                         _vm._v(" "),
                         _c("li", [
                           _vm._v(
-                            "Inspecteur & Instructeur diplômé par l’Association Suisse de Football\r\n\t\t\t\t\t\t\t\t\t\t\t"
+                            "Inspecteur & Instructeur diplômé par l’Association Suisse de Football\n\t\t\t\t\t\t\t\t\t"
                           )
                         ])
                       ]),
@@ -55564,24 +55575,33 @@ var render = function() {
             [
               _c("img", {
                 staticClass: "rounded float-left",
-                staticStyle: { width: "53%", padding: "0px 10px 0px 0px" },
-                attrs: {
-                  src: "/images/gabriele_beffa-min.jpg",
-                  alt: "Photo Gabriele Beffa"
+                staticStyle: { width: "47%", padding: "0px 20px 0px 0px" },
+                attrs: { src: _vm.imgGabriele, alt: "Photo Gabriele Beffa" },
+                on: {
+                  mouseover: function($event) {
+                    _vm.imgGabriele = _vm.imgGabrieleColor
+                  },
+                  mouseleave: function($event) {
+                    _vm.imgGabriele = _vm.imgGabrieleNb
+                  }
                 }
               }),
               _vm._v(
-                "\r\n\t\t\t\t\t\t\t\tInscrit au barreau de Neuchâtel depuis 2014, Gabriele Beffa offre principalement ses\r\n\t\t\t\t\t\t\t\tservices en matière matrimoniale, en défense pénale, dans le cadre du droit des\r\n\t\t\t\t\t\t\t\tobligations et dans le domaine administratif.\r\n\t\t\t\t\t\t\t\tGabriele Beffa est né le 9 octobre 1986 à Genève. Après avoir obtenu sa maturité\r\n\t\t\t\t\t\t\t\tgymnasiale, il a entamé des études de droit à l’Université de Neuchâtel en 2006\r\n\t\t\t\t\t\t\t\tsanctionné d’une Maîtrise en Droit en orientation « droit de la santé et des\r\n\t\t\t\t\t\t\t\tbiotechnologies » en 2012."
+                "\n\t\t\t\t\t\tInscrit au barreau de Neuchâtel depuis 2014, Gabriele Beffa offre principalement ses\n\t\t\t\t\t\tservices en matière matrimoniale, en défense pénale, dans le cadre du droit des\n\t\t\t\t\t\tobligations et dans le domaine administratif."
               ),
               _c("br"),
               _vm._v(
-                "\r\n\t\t\t\t\t\t\t\tTitulaire du Brevet d’Avocat Neuchâtelois, il a d’abord exercé en qualité de\r\n\t\t\t\t\t\t\t\tcollaborateur au sein de l’Etude Nardin & Röthlisberger à La Chaux-de-Fonds puis obtient\r\n\t\t\t\t\t\t\t\ten 2016 un "
+                "\n\t\t\t\t\t\tGabriele Beffa est né le 9 octobre 1986 à Genève. Après avoir obtenu sa maturité\n\t\t\t\t\t\tgymnasiale, il a entamé des études de droit à l’Université de Neuchâtel en 2006\n\t\t\t\t\t\tsanctionné d’une Maîtrise en Droit en orientation « droit de la santé et des\n\t\t\t\t\t\tbiotechnologies » en 2012."
+              ),
+              _c("br"),
+              _vm._v(
+                "\n\t\t\t\t\t\tTitulaire du Brevet d’Avocat Neuchâtelois, il a d’abord exercé en qualité de\n\t\t\t\t\t\tcollaborateur au sein de l’Etude Nardin & Röthlisberger à La Chaux-de-Fonds puis obtient\n\t\t\t\t\t\ten 2016 un "
               ),
               _c("i", [_vm._v("Certificate of Advanced Studies")]),
               _vm._v(" en magistrature pénale."),
               _c("br"),
               _vm._v(
-                "\r\n\t\t\t\t\t\t\t\tÉgalement Juge d’instruction militaire, il est adepte de sport en général, plus\r\n\t\t\t\t\t\t\t\tparticulièrement d’unihockey et effectue une activité de journaliste sportif dans le\r\n\t\t\t\t\t\t\t\tdomaine du hockey sur glace.\r\n\t\t\t\t\t\t\t\t"
+                "\n\t\t\t\t\t\tÉgalement Juge d’instruction militaire, il est adepte de sport en général, plus\n\t\t\t\t\t\tparticulièrement d’unihockey et effectue une activité de journaliste sportif dans le\n\t\t\t\t\t\tdomaine du hockey sur glace.\n\t\t\t\t\t\t"
               ),
               _c("div", { staticClass: "text-center" }, [
                 _c(
@@ -55600,7 +55620,7 @@ var render = function() {
                       ? _c(
                           "span",
                           [
-                            _vm._v("Moins\r\n\t\t\t\t\t\t\t\t\t\t\t"),
+                            _vm._v("Moins\n\t\t\t\t\t\t\t\t\t"),
                             _c("font-awesome-icon", {
                               attrs: { icon: "angle-up" }
                             })
@@ -55610,7 +55630,7 @@ var render = function() {
                       : _c(
                           "span",
                           [
-                            _vm._v("Plus\r\n\t\t\t\t\t\t\t\t\t\t\t"),
+                            _vm._v("Plus\n\t\t\t\t\t\t\t\t\t"),
                             _c("font-awesome-icon", {
                               attrs: { icon: "angle-down" }
                             })

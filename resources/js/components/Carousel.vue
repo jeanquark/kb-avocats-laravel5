@@ -1,5 +1,5 @@
 <template>
-    <carousel :per-page="1" :paginationEnabled="false" :autoplay="true" :autoplayHoverPause="false" :autoplayTimeout="3000" :loop="true" :mouse-drag="false" easing="ease-in-out" :speed="1000">
+    <carousel :per-page="1" :paginationEnabled="false" :autoplay="true" :autoplayHoverPause="false" :autoplayTimeout="3000" :loop="false" :mouse-drag="false" easing="ease-in-out" :speed="1000">
         <slide>
             <img src="/images/carousel/01.jpg" width="100%">
         </slide>

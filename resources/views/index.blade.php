@@ -59,42 +59,6 @@
 
 <body>
 	<div id="app">
-		{{-- <header class="py-5" style="background-image: url('/images/livres3_3-min.jpg'); background-size: 100%;">
-      			<img class="img-fluid d-block mx-auto" src="/images/logo3.png" alt="Logo de l'Etude">
-			</header> --}}
-
-		{{-- <vue-carousel :autoplay="true" :dots="false" :navButtons="false" :prevButton="false" :fade="true"
-			:autoplaySpeed="2000">
-			<div class="slide">
-				<img src="/images/carousel/01.jpg" width="100%">
-			</div>
-			<div class="slide">
-				<img src="/images/carousel/02.jpg" width="100%">
-			</div>
-		</vue-carousel> --}}
-
-		{{-- <vue-carousel>
-			<vue-slide>
-				<img src="/images/carousel/01.jpg" width="100%">
-			</vue-slide>
-			<vue-slide>
-				<img src="/images/carousel/02.jpg" width="100%">
-			</vue-slide>
-		</vue-carousel> --}}
-
-		{{-- <vue-carousel :per-page="1" :paginationEnabled="false" :autoplay="true" :autoplayHoverPause="false" :autoplayTimeout="1000"
-			 :loop="true" :mouse-drag="false">
-			<vue-slide>
-				<img src="/images/carousel/01.jpg" width="100%">
-			</vue-slide>
-			<vue-slide>
-				<img src="/images/carousel/02.jpg" width="100%">
-			</vue-slide>
-			<vue-slide>
-				<img src="/images/carousel/3200x900.png" width="100%">
-			</vue-slide>
-		</vue-carousel> --}}
-
 		<vue-carousel></vue-carousel>
 
 		<!-- Content section -->
@@ -115,8 +79,7 @@
 
 		<div class="container">
 			
-
-			<lawyers-description></lawyers-description>		
+			<lawyers-description></lawyers-description>
 					
 			<br /><br />
 
@@ -124,7 +87,6 @@
 
 				<div class="col-md-6 col-sm-12" style="">
 					<h3 class="text-center">Où nous trouver</h3>
-					{{-- <div id="map"></div> --}}
 					<p style="font-size: .8em; padding: 10px; border: 1px solid #343a40 ; border-radius: 5px;">N'hésitez
 						pas à venir nous rencontrer directement à notre Etude. En cas de disponibilité nous vous
 						recevrons immédiatement. Dans le cas contraire nous fixerons un rendez-vous dans les plus brefs
