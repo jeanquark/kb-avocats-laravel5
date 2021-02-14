@@ -6,8 +6,10 @@
 				<div class="card-body text-dark">
 					<h5 class="card-title text-center">Maître Cyril Kleger</h5>
 					<div class="card-text" style="text-align: justify;">
-						<img :src="imgCyril" class="rounded float-right"
-							alt="Photo Cyril Kleger" style="width: 50%; padding: 0px 0px 0px 20px;" @mouseover="imgCyril = imgCyrilColor" @mouseleave="imgCyril = imgCyrilNb" />
+						<!-- <img :src="imgCyril" class="rounded float-right"
+							alt="Photo Cyril Kleger" style="width: 50%; padding: 0px 0px 0px 20px;" @mouseover="imgCyril = imgCyrilColor" @mouseleave="imgCyril = imgCyrilNb" />-->
+						<img src="/images/cyril-min.jpg" class="rounded float-right image"
+							alt="Photo Cyril Kleger" style="width: 50%; padding: 0px 0px 0px 20px;" />
 						Inscrit au barreau de Neuchâtel, Cyril Kleger exerce son activité essentiellement en
 						matière de droit pénal mais intervient régulièrement dans le cadre des litiges
 						matrimoniaux et des droits des contrats.
@@ -59,8 +61,10 @@
 				<div class="card-body text-dark">
 					<h5 class="card-title text-center">Maître Gabriele Beffa</h5>
 					<div class="card-text" style="text-align: justify;">
-						<img :src="imgGabriele" class="rounded float-left"
-							alt="Photo Gabriele Beffa" style="width: 47%; padding: 0px 20px 0px 0px;" @mouseover="imgGabriele = imgGabrieleColor" @mouseleave="imgGabriele = imgGabrieleNb" />
+						<!--<img :src="imgGabriele" class="rounded float-left"
+							alt="Photo Gabriele Beffa" style="width: 47%; padding: 0px 20px 0px 0px;" @mouseover="imgGabriele = imgGabrieleColor" @mouseleave="imgGabriele = imgGabrieleNb" />-->
+							<img src="/images/gabriele-min.jpg" class="rounded float-left image"
+							alt="Photo Gabriele Beffa" style="width: 47%; padding: 0px 20px 0px 0px;" />
 						Inscrit au barreau de Neuchâtel depuis 2014, Gabriele Beffa offre principalement ses
 						services en matière matrimoniale, en défense pénale, dans le cadre du droit des
 						obligations et dans le domaine administratif.<br />
@@ -108,18 +112,17 @@ export default {
     data() {
         return {
             showMoreCyril: false,
-			showMoreGabriele: false,
-			imgCyril: '/images/cyril_nb-min.jpg',
-			imgCyrilNb: '/images/cyril_nb-min.jpg',
-			imgCyrilColor: '/images/cyril-min.jpg',
-			imgGabriele: '/images/gabriele_nb-min.jpg',
-			imgGabrieleNb: '/images/gabriele_nb-min.jpg',
-			imgGabrieleColor: '/images/gabriele-min.jpg'
+            showMoreGabriele: false,
+            // imgCyril: '/images/cyril_nb-min.jpg',
+            // imgCyrilNb: '/images/cyril_nb-min.jpg',
+            // imgCyrilColor: '/images/cyril-min.jpg',
+            // imgGabriele: '/images/gabriele_nb-min.jpg',
+            // imgGabrieleNb: '/images/gabriele_nb-min.jpg',
+            // imgGabrieleColor: '/images/gabriele-min.jpg'
         }
     },
     methods: {
         toggleShow(lawyer) {
-            // console.log('toggleShow: ', lawyer)
             if (lawyer === 'cyril') {
                 this.showMoreCyril = !this.showMoreCyril
             } else {
@@ -129,3 +132,12 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.image {
+	filter: grayscale(1);
+}
+.image:hover {
+	filter: grayscale(0);
+}
+</style>
