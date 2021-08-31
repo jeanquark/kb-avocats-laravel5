@@ -10,22 +10,11 @@
 							alt="Photo Cyril Kleger" style="width: 50%; padding: 0px 0px 0px 20px;" @mouseover="imgCyril = imgCyrilColor" @mouseleave="imgCyril = imgCyrilNb" />-->
 						<img src="/images/cyril-min.jpg" class="rounded float-right image"
 							alt="Photo Cyril Kleger" style="width: 50%; padding: 0px 0px 0px 20px;" />
-						Inscrit au barreau de Neuchâtel, Cyril Kleger exerce son activité essentiellement en
-						matière de droit pénal mais intervient régulièrement dans le cadre des litiges
-						matrimoniaux et des droits des contrats.
-						En parallèle de son activité d’avocat, il revêt la fonction de Juge d’instruction auprès
-						de la Justice militaire.<br />
-						Né en 1988, il est titulaire d’une Maîtrise en droit de l’Université de Neuchâtel et
-						titulaire du Brevet d’Avocat Bernois. Il vient d'achever récemment un <i>Certificate of
-							Advanced Studies</i> en magistrature pénale dans sa discipline de
-						prédilection.<br />
-						Membre fondateur du Jeune Barreau Neuchâtelois dont il assume le service de permanence
-						des avocats de première heure, Cyril Kleger cultive un goût prononcé pour les lettres,
-						la presse et le sport.<br />
-						Ancien arbitre de première ligue de football, Cyril Kleger garde encore un contact
-						régulier avec le milieu du ballon rond et siège dans la Commission des arbitres de
-						l’ACVF en sa qualité de Chef d’instruction.<br />
-
+						Inscrit au barreau de Neuchâtel, Cyril Kleger est diplômé d’une Maîtrise en droit de l’Université de Neuchâtel et titulaire du Brevet d’Avocat Bernois ainsi qu’un CAS en magistrature pénale.<br />
+						Passionné par la défense pénale, il en maîtrise bien les arcanes pour vous conseiller à travers toutes les étapes procédurales. A côté de ses dossiers pénaux, il intervient régulièrement dans le cadre de litiges matrimoniaux et dispose d’une pratique extensive en matière de droit des contrats.<br />
+						Rigoureux et à l’écoute, Me Cyril Kleger s’attelle toujours à créer une relation de confiance et de proximité avec ses clients. Son indépendance d’esprit vous garantit une absence totale de liens d’intérêts partisans ou commerciaux.<br />
+						Né en 1988, Cyril Kleger est également membre fondateur du Jeune Barreau Neuchâtelois dont il assume le service de permanence des avocats de première heure pour le canton. En parallèle de son activité d’avocat, il revêt la fonction de Juge d’instruction auprès de la Justice militaire.<br />
+						Cyril Kleger se complaît dans le contradictoire et cultive un goût prononcé pour la littérature, les médias et notamment la presse écrite. Ancien arbitre de première ligue de football, Cyril Kleger a siégé, plusieurs années durant, auprès de la Commission des arbitres de l’ACVF en sa qualité de chef d’instruction et conserve encore aujourd’hui un contact régulier avec le milieu du ballon rond.
 						<div class="text-center">
 							<button type="button" class="btn btn-dark" @click="toggleShow('cyril')">
 								<span v-if="showMoreCyril">Moins
@@ -65,19 +54,10 @@
 							alt="Photo Gabriele Beffa" style="width: 47%; padding: 0px 20px 0px 0px;" @mouseover="imgGabriele = imgGabrieleColor" @mouseleave="imgGabriele = imgGabrieleNb" />-->
 							<img src="/images/gabriele-min.jpg" class="rounded float-left image"
 							alt="Photo Gabriele Beffa" style="width: 47%; padding: 0px 20px 0px 0px;" />
-						Inscrit au barreau de Neuchâtel depuis 2014, Gabriele Beffa offre principalement ses
-						services en matière matrimoniale, en défense pénale, dans le cadre du droit des
-						obligations et dans le domaine administratif.<br />
-						Gabriele Beffa est né le 9 octobre 1986 à Genève. Après avoir obtenu sa maturité
-						gymnasiale, il a entamé des études de droit à l’Université de Neuchâtel en 2006
-						sanctionné d’une Maîtrise en Droit en orientation « droit de la santé et des
-						biotechnologies » en 2012.<br />
-						Titulaire du Brevet d’Avocat Neuchâtelois, il a d’abord exercé en qualité de
-						collaborateur au sein de l’Etude Nardin & Röthlisberger à La Chaux-de-Fonds puis obtient
-						en 2016 un <i>Certificate of Advanced Studies</i> en magistrature pénale.<br />
-						Également Juge d’instruction militaire, il est adepte de sport en général, plus
-						particulièrement d’unihockey et effectue une activité de journaliste sportif dans le
-						domaine du hockey sur glace.
+						Inscrit au barreau de Neuchâtel depuis 2014, Gabriele Beffa est titulaire du Brevet d’Avocat Neuchâtelois ainsi qu’un CAS magistrature pénale. Durant plusieurs années, il a exercé en qualité de collaborateur au sein d’une Etude à La Chaux-de-Fonds avant d’aspirer, logiquement, au statut d’indépendant.<br />
+						Baigné depuis plusieurs années déjà dans la pratique du barreau, Me Gabriele Beffa offre des conseils avisés dans ses nombreux domaines d’expertises, se profilant notamment dans le contentieux en matière de bail à loyer et du droit du travail. Il jouit également de solides compétences sur des questions de droit administratif.<br />
+						Aguerri et doté d’un grand sens de l’anticipation, il en est devenu très habile procéduralement ce qui lui permet de conseiller et de défendre ses clients au mieux de leurs intérêts afin aussi de trouver des solutions pragmatiques pour des coûts raisonnables.<br />
+						Né en 1986, il achève tout son cursus dans le canton de Neuchâtel dont une Maîtrise en « droit de la santé et des biotechnologies » en 2012. Également Juge d’instruction militaire, Gabriele Beffa n’en perd pas moins son côté facétieux. Voyageur hors-pair, il puise son énergie dans la nature et se ressource volontiers dans la lecture d’un polar ou dans des expériences culinaires dont il cultive le goût et le secret.
 						<div class="text-center">
 							<button type="button" class="btn btn-dark" @click="toggleShow('gabriele')">
 								<span v-if="showMoreGabriele">Moins
@@ -112,7 +92,7 @@ export default {
     data() {
         return {
             showMoreCyril: false,
-            showMoreGabriele: false,
+            showMoreGabriele: false
             // imgCyril: '/images/cyril_nb-min.jpg',
             // imgCyrilNb: '/images/cyril_nb-min.jpg',
             // imgCyrilColor: '/images/cyril-min.jpg',
@@ -135,9 +115,9 @@ export default {
 
 <style scoped>
 .image {
-	filter: grayscale(1);
+    filter: grayscale(1);
 }
 .image:hover {
-	filter: grayscale(0);
+    filter: grayscale(0);
 }
 </style>

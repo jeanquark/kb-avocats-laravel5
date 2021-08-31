@@ -53,7 +53,6 @@
 			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(52, 58, 64, 0.6);
 			outline: 0 none;
 		}
-		
 	</style>
 </head>
 
@@ -64,33 +63,41 @@
 		<!-- Content section -->
 		<section class="py-5">
 			<div class="container" style="text-align: justify;">
-				<p class="lead">Essentiellement active dans le droit pénal, l’Etude <strong>KB Avocats</strong>
-					accompagne également ses clients dans tous contentieux – en cours ou à venir – de nature civile ou
-					administrative, tant devant les autorités cantonales que fédérales.<br />
-					Nos deux avocats, domiciliés dans le canton, vous prodiguent leurs conseils sur les démarches à
-					entreprendre à tout moment quelle que soit votre situation.<br />
-					Idéalement situé au centre-ville de Neuchâtel, en plein cœur de la zone piétonne, nous vous
-					garantissons une rapide prise en charge, dans les règles déontologiques, en vous assurant un
-					traitement individualisé de votre dossier.<br />
-					Inscrits au barreau de Neuchâtel, nous plaidons également devant les juridictions bernoises,
-					fribourgeoises et vaudoises. </p>
+				<p class="lead">Fondée en 2019, l’Étude est née de la volonté de constituer une équipe au service de la
+					défense
+					pénale. Aujourd’hui, l’Étude accompagne ses clients dans tous contentieux – en cours ou à venir –
+					tant devant les autorités cantonales que fédérales.</p>
+				<p class="lead">L’Étude Kleger & Beffa a délibérément choisi de rester une Étude à taille humaine. Nos
+					deux avocats,
+					domiciliés dans le canton, vous prodiguent leurs conseils avisés sur les démarches à entreprendre à
+					tout moment quelle que soit votre situation. Par son esprit d’entente, l’Étude se distingue par le
+					regard croisé que jette chaque associé sur votre affaire, spécificité qui représente une réelle
+					valeur ajoutée et contribue à la mise en œuvre de solutions rapides et efficaces.</p>
+				<p class="lead">Idéalement situé au centre-ville de Neuchâtel, en plein cœur de la zone piétonne, nous
+					vous
+					garantissons une rapide prise en charge, dans le strict respect des règles déontologiques notamment
+					du secret professionnel, en vous assurant un traitement individualisé de votre dossier.</p>
+				<p class="lead">Inscrits au barreau de Neuchâtel, nous plaidons également régulièrement devant les
+					juridictions
+					bernoises, fribourgeoises et vaudoises.</p>
+
 			</div>
 		</section>
 
 		<div class="container">
-			
+
 			<lawyers-description></lawyers-description>
-					
+
 			<br /><br />
 
 			<div class="row">
 
 				<div class="col-md-6 col-sm-12" style="">
 					<h3 class="text-center">Où nous trouver</h3>
-					<p style="font-size: .8em; padding: 10px; border: 1px solid #343a40 ; border-radius: 5px;">N'hésitez
-						pas à venir nous rencontrer directement à notre Etude. En cas de disponibilité nous vous
-						recevrons immédiatement. Dans le cas contraire nous fixerons un rendez-vous dans les plus brefs
-						délais.</p><br />
+					<p style="font-size: .8em; padding: 10px; border: 1px solid #343a40 ; border-radius: 5px;">Afin de
+						nous permettre une prompte prise en charge, nous vous invitons, lorsque cela est possible, à
+						indiquer avec précision les faits concernés. Toutes les demandes sont traitées dans le respect
+						le plus strict de la confidentialité et du secret professionnel.</p><br />
 
 					<div style="overflow: hidden; width: 100%; position: relative;"><iframe width="700" height="440"
 							src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Rue%20du%20Seillon%2010%2C%20Neuch%C3%A2tel+(KB%20Avocats)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed"
