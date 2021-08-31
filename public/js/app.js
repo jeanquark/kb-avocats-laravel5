@@ -10967,26 +10967,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -15002,7 +14982,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.image[data-v-7763be90] {\r\n\t-webkit-filter: grayscale(1);\r\n\t        filter: grayscale(1);\n}\n.image[data-v-7763be90]:hover {\r\n\t-webkit-filter: grayscale(0);\r\n\t        filter: grayscale(0);\n}\r\n", ""]);
+exports.push([module.i, "\n.image[data-v-7763be90] {\r\n    -webkit-filter: grayscale(1);\r\n            filter: grayscale(1);\n}\n.image[data-v-7763be90]:hover {\r\n    -webkit-filter: grayscale(0);\r\n            filter: grayscale(0);\n}\r\n", ""]);
 
 // exports
 
@@ -55495,28 +55475,24 @@ var render = function() {
                 }
               }),
               _vm._v(
-                "\n\t\t\t\t\t\tInscrit au barreau de Neuchâtel, Cyril Kleger exerce son activité essentiellement en\n\t\t\t\t\t\tmatière de droit pénal mais intervient régulièrement dans le cadre des litiges\n\t\t\t\t\t\tmatrimoniaux et des droits des contrats.\n\t\t\t\t\t\tEn parallèle de son activité d’avocat, il revêt la fonction de Juge d’instruction auprès\n\t\t\t\t\t\tde la Justice militaire."
+                "\n\t\t\t\t\t\tInscrit au barreau de Neuchâtel, Cyril Kleger est diplômé d’une Maîtrise en droit de l’Université de Neuchâtel et titulaire du Brevet d’Avocat Bernois ainsi qu’un CAS en magistrature pénale."
               ),
               _c("br"),
               _vm._v(
-                "\n\t\t\t\t\t\tNé en 1988, il est titulaire d’une Maîtrise en droit de l’Université de Neuchâtel et\n\t\t\t\t\t\ttitulaire du Brevet d’Avocat Bernois. Il vient d'achever récemment un "
-              ),
-              _c("i", [
-                _vm._v("Certificate of\n\t\t\t\t\t\t\tAdvanced Studies")
-              ]),
-              _vm._v(
-                " en magistrature pénale dans sa discipline de\n\t\t\t\t\t\tprédilection."
+                "\n\t\t\t\t\t\tPassionné par la défense pénale, il en maîtrise bien les arcanes pour vous conseiller à travers toutes les étapes procédurales. A côté de ses dossiers pénaux, il intervient régulièrement dans le cadre de litiges matrimoniaux et dispose d’une pratique extensive en matière de droit des contrats."
               ),
               _c("br"),
               _vm._v(
-                "\n\t\t\t\t\t\tMembre fondateur du Jeune Barreau Neuchâtelois dont il assume le service de permanence\n\t\t\t\t\t\tdes avocats de première heure, Cyril Kleger cultive un goût prononcé pour les lettres,\n\t\t\t\t\t\tla presse et le sport."
+                "\n\t\t\t\t\t\tRigoureux et à l’écoute, Me Cyril Kleger s’attelle toujours à créer une relation de confiance et de proximité avec ses clients. Son indépendance d’esprit vous garantit une absence totale de liens d’intérêts partisans ou commerciaux."
               ),
               _c("br"),
               _vm._v(
-                "\n\t\t\t\t\t\tAncien arbitre de première ligue de football, Cyril Kleger garde encore un contact\n\t\t\t\t\t\trégulier avec le milieu du ballon rond et siège dans la Commission des arbitres de\n\t\t\t\t\t\tl’ACVF en sa qualité de Chef d’instruction."
+                "\n\t\t\t\t\t\tNé en 1988, Cyril Kleger est également membre fondateur du Jeune Barreau Neuchâtelois dont il assume le service de permanence des avocats de première heure pour le canton. En parallèle de son activité d’avocat, il revêt la fonction de Juge d’instruction auprès de la Justice militaire."
               ),
               _c("br"),
-              _vm._v(" "),
+              _vm._v(
+                "\n\t\t\t\t\t\tCyril Kleger se complaît dans le contradictoire et cultive un goût prononcé pour la littérature, les médias et notamment la presse écrite. Ancien arbitre de première ligue de football, Cyril Kleger a siégé, plusieurs années durant, auprès de la Commission des arbitres de l’ACVF en sa qualité de chef d’instruction et conserve encore aujourd’hui un contact régulier avec le milieu du ballon rond.\n\t\t\t\t\t\t"
+              ),
               _c("div", { staticClass: "text-center" }, [
                 _c(
                   "button",
@@ -55629,21 +55605,19 @@ var render = function() {
                 }
               }),
               _vm._v(
-                "\n\t\t\t\t\t\tInscrit au barreau de Neuchâtel depuis 2014, Gabriele Beffa offre principalement ses\n\t\t\t\t\t\tservices en matière matrimoniale, en défense pénale, dans le cadre du droit des\n\t\t\t\t\t\tobligations et dans le domaine administratif."
+                "\n\t\t\t\t\t\tInscrit au barreau de Neuchâtel depuis 2014, Gabriele Beffa est titulaire du Brevet d’Avocat Neuchâtelois ainsi qu’un CAS magistrature pénale. Durant plusieurs années, il a exercé en qualité de collaborateur au sein d’une Étude à La Chaux-de-Fonds avant d’aspirer, logiquement, au statut d’indépendant."
               ),
               _c("br"),
               _vm._v(
-                "\n\t\t\t\t\t\tGabriele Beffa est né le 9 octobre 1986 à Genève. Après avoir obtenu sa maturité\n\t\t\t\t\t\tgymnasiale, il a entamé des études de droit à l’Université de Neuchâtel en 2006\n\t\t\t\t\t\tsanctionné d’une Maîtrise en Droit en orientation « droit de la santé et des\n\t\t\t\t\t\tbiotechnologies » en 2012."
+                "\n\t\t\t\t\t\tBaigné depuis plusieurs années déjà dans la pratique du barreau, Me Gabriele Beffa offre des conseils avisés dans ses nombreux domaines d’expertise, se profilant notamment dans le contentieux en matière de bail à loyer et du droit du travail. Il jouit également de solides compétences sur des questions de droit administratif."
               ),
               _c("br"),
               _vm._v(
-                "\n\t\t\t\t\t\tTitulaire du Brevet d’Avocat Neuchâtelois, il a d’abord exercé en qualité de\n\t\t\t\t\t\tcollaborateur au sein de l’Etude Nardin & Röthlisberger à La Chaux-de-Fonds puis obtient\n\t\t\t\t\t\ten 2016 un "
+                "\n\t\t\t\t\t\tAguerri et doté d’un grand sens de l’anticipation, il en est devenu très habile procéduralement ce qui lui permet de conseiller et de défendre ses clients au mieux de leurs intérêts afin aussi de trouver des solutions pragmatiques pour des coûts raisonnables."
               ),
-              _c("i", [_vm._v("Certificate of Advanced Studies")]),
-              _vm._v(" en magistrature pénale."),
               _c("br"),
               _vm._v(
-                "\n\t\t\t\t\t\tÉgalement Juge d’instruction militaire, il est adepte de sport en général, plus\n\t\t\t\t\t\tparticulièrement d’unihockey et effectue une activité de journaliste sportif dans le\n\t\t\t\t\t\tdomaine du hockey sur glace.\n\t\t\t\t\t\t"
+                '\n\t\t\t\t\t\tNé en 1986, il achève tout son cursus dans le canton de Neuchâtel dont une Maîtrise en "Droit de la Santé et des Biotechnologies" en 2012. Également Juge d’instruction militaire, Gabriele Beffa n’en perd pas moins son côté facétieux. Voyageur hors-pair, il puise son énergie dans la nature et se ressource volontiers dans la lecture d’un polar ou dans des expériences culinaires dont il cultive le goût et le secret.\n\t\t\t\t\t\t'
               ),
               _c("div", { staticClass: "text-center" }, [
                 _c(
