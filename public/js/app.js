@@ -10983,6 +10983,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -55437,22 +55438,17 @@ var render = function() {
               _c("img", {
                 staticClass: "rounded float-right",
                 staticStyle: { width: "50%", padding: "0px 0px 0px 20px" },
-                attrs: { src: _vm.imgCyril, alt: "Photo Cyril Kleger" },
-                on: {
-                  mouseover: function($event) {
-                    _vm.imgCyril = _vm.imgCyrilColor
-                  },
-                  mouseleave: function($event) {
-                    _vm.imgCyril = _vm.imgCyrilNb
-                  }
+                attrs: {
+                  src: "/images/cyril-min.jpg",
+                  alt: "Photo Cyril Kleger"
                 }
               }),
               _vm._v(
-                "\n\t\t\t\t\t\tInscrit au barreau de Neuchâtel, Cyril Kleger exerce son activité essentiellement en\n\t\t\t\t\t\tmatière de droit pénal mais intervient régulièrement dans le cadre des litiges\n\t\t\t\t\t\tmatrimoniaux et des droits des contrats.\n\t\t\t\t\t\tEn parallèle de son activité d’avocat, il revêt la fonction de Juge d’instruction auprès\n\t\t\t\t\t\tde la Justice militaire."
+                "\n\t\t\t\t\t\tInscrit au barreau de Neuchâtel, Cyril Kleger exerce son activité essentiellement en\n\t\t\t\t\t\tmatière de droit pénal mais intervient régulièrement dans le cadre des litiges\n\t\t\t\t\t\tmatrimoniaux et des droits des contrats.\n\t\t\t\t\t\tEn parallèle de son activité d’avocat, il revêt la fonction d'auditeur (procureur) avec le grade de major après avoir servi quatre ans comme juge d'instruction militaire."
               ),
               _c("br"),
               _vm._v(
-                "\n\t\t\t\t\t\tNé en 1988, il est titulaire d’une Maîtrise en droit de l’Université de Neuchâtel et\n\t\t\t\t\t\ttitulaire du Brevet d’Avocat Bernois. Il vient d'achever récemment un "
+                "\n\t\t\t\t\t\tNé en 1988, il est titulaire d’une Maîtrise en droit de l’Université de Neuchâtel et\n\t\t\t\t\t\ttitulaire du Brevet d’Avocat Bernois. Il a également achevé un "
               ),
               _c("i", [
                 _vm._v("Certificate of\n\t\t\t\t\t\t\tAdvanced Studies")

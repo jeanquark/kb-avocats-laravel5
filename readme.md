@@ -14,6 +14,12 @@ To install Vue dependencies (`node_modules` folder):
 npm install
 ```
 
+Create environment variables file
+```
+cp .env.example .env
+```
+
+
 Specify application encryption key:
 ```bash
 php artisan key:generate

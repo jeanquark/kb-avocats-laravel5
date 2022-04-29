@@ -6,15 +6,16 @@
 				<div class="card-body text-dark">
 					<h5 class="card-title text-center">Maître Cyril Kleger</h5>
 					<div class="card-text" style="text-align: justify;">
-						<img :src="imgCyril" class="rounded float-right"
-							alt="Photo Cyril Kleger" style="width: 50%; padding: 0px 0px 0px 20px;" @mouseover="imgCyril = imgCyrilColor" @mouseleave="imgCyril = imgCyrilNb" />
+						<!--<img :src="imgCyril" class="rounded float-right"
+							alt="Photo Cyril Kleger" style="width: 50%; padding: 0px 0px 0px 20px;" @mouseover="imgCyril = imgCyrilColor" @mouseleave="imgCyril = imgCyrilNb" />-->
+						<img src="/images/cyril-min.jpg" class="rounded float-right"
+							alt="Photo Cyril Kleger" style="width: 50%; padding: 0px 0px 0px 20px;" />
 						Inscrit au barreau de Neuchâtel, Cyril Kleger exerce son activité essentiellement en
 						matière de droit pénal mais intervient régulièrement dans le cadre des litiges
 						matrimoniaux et des droits des contrats.
-						En parallèle de son activité d’avocat, il revêt la fonction de Juge d’instruction auprès
-						de la Justice militaire.<br />
+						En parallèle de son activité d’avocat, il revêt la fonction d'auditeur (procureur) avec le grade de major après avoir servi quatre ans comme juge d'instruction militaire.<br />
 						Né en 1988, il est titulaire d’une Maîtrise en droit de l’Université de Neuchâtel et
-						titulaire du Brevet d’Avocat Bernois. Il vient d'achever récemment un <i>Certificate of
+						titulaire du Brevet d’Avocat Bernois. Il a également achevé un <i>Certificate of
 							Advanced Studies</i> en magistrature pénale dans sa discipline de
 						prédilection.<br />
 						Membre fondateur du Jeune Barreau Neuchâtelois dont il assume le service de permanence
