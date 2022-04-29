@@ -8,7 +8,7 @@
 					<div class="card-text" style="text-align: justify;">
 						<!--<img :src="imgCyril" class="rounded float-right"
 							alt="Photo Cyril Kleger" style="width: 50%; padding: 0px 0px 0px 20px;" @mouseover="imgCyril = imgCyrilColor" @mouseleave="imgCyril = imgCyrilNb" />-->
-						<img src="/images/cyril-min.jpg" class="rounded float-right"
+						<img src="/images/cyril-min.jpg" class="rounded float-right image"
 							alt="Photo Cyril Kleger" style="width: 50%; padding: 0px 0px 0px 20px;" />
 						Inscrit au barreau de Neuchâtel, Cyril Kleger exerce son activité essentiellement en
 						matière de droit pénal mais intervient régulièrement dans le cadre des litiges

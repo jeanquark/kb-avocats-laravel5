@@ -55477,7 +55477,7 @@ var render = function() {
             },
             [
               _c("img", {
-                staticClass: "rounded float-right",
+                staticClass: "rounded float-right image",
                 staticStyle: { width: "50%", padding: "0px 0px 0px 20px" },
                 attrs: {
                   src: "/images/cyril-min.jpg",
