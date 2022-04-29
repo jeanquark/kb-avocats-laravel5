@@ -60,21 +60,14 @@
 				<div class="card-body text-dark">
 					<h5 class="card-title text-center">Maître Gabriele Beffa</h5>
 					<div class="card-text" style="text-align: justify;">
-						<img :src="imgGabriele" class="rounded float-left"
-							alt="Photo Gabriele Beffa" style="width: 47%; padding: 0px 20px 0px 0px;" @mouseover="imgGabriele = imgGabrieleColor" @mouseleave="imgGabriele = imgGabrieleNb" />
-						Inscrit au barreau de Neuchâtel depuis 2014, Gabriele Beffa offre principalement ses
-						services en matière matrimoniale, en défense pénale, dans le cadre du droit des
-						obligations et dans le domaine administratif.<br />
-						Gabriele Beffa est né le 9 octobre 1986 à Genève. Après avoir obtenu sa maturité
-						gymnasiale, il a entamé des études de droit à l’Université de Neuchâtel en 2006
-						sanctionné d’une Maîtrise en Droit en orientation « droit de la santé et des
-						biotechnologies » en 2012.<br />
-						Titulaire du Brevet d’Avocat Neuchâtelois, il a d’abord exercé en qualité de
-						collaborateur au sein de l’Etude Nardin & Röthlisberger à La Chaux-de-Fonds puis obtient
-						en 2016 un <i>Certificate of Advanced Studies</i> en magistrature pénale.<br />
-						Également Juge d’instruction militaire, il est adepte de sport en général, plus
-						particulièrement d’unihockey et effectue une activité de journaliste sportif dans le
-						domaine du hockey sur glace.
+						<!--<img :src="imgGabriele" class="rounded float-left"
+							alt="Photo Gabriele Beffa" style="width: 47%; padding: 0px 20px 0px 0px;" @mouseover="imgGabriele = imgGabrieleColor" @mouseleave="imgGabriele = imgGabrieleNb" />-->
+							<img src="/images/gabriele-min.jpg" class="rounded float-left image"
+							alt="Photo Gabriele Beffa" style="width: 47%; padding: 0px 20px 0px 0px;" />
+						Inscrit au barreau de Neuchâtel depuis 2014, Gabriele Beffa est titulaire du Brevet d’Avocat Neuchâtelois ainsi qu’un CAS magistrature pénale. Durant plusieurs années, il a exercé en qualité de collaborateur au sein d’une Étude à La Chaux-de-Fonds avant d’aspirer, logiquement, au statut d’indépendant.<br />
+						Baigné depuis plusieurs années déjà dans la pratique du barreau, Me Gabriele Beffa offre des conseils avisés dans ses nombreux domaines d’expertise, se profilant notamment dans le contentieux en matière de bail à loyer et du droit du travail. Il jouit également de solides compétences sur des questions de droit administratif.<br />
+						Aguerri et doté d’un grand sens de l’anticipation, il en est devenu très habile procéduralement ce qui lui permet de conseiller et de défendre ses clients au mieux de leurs intérêts afin aussi de trouver des solutions pragmatiques pour des coûts raisonnables.<br />
+						Né en 1986, il achève tout son cursus dans le canton de Neuchâtel dont une Maîtrise en "Droit de la Santé et des Biotechnologies" en 2012. Également Juge d’instruction militaire, Gabriele Beffa n’en perd pas moins son côté facétieux. Voyageur hors-pair, il puise son énergie dans la nature et se ressource volontiers dans la lecture d’un polar ou dans des expériences culinaires dont il cultive le goût et le secret.
 						<div class="text-center">
 							<button type="button" class="btn btn-dark" @click="toggleShow('gabriele')">
 								<span v-if="showMoreGabriele">Moins
@@ -109,18 +102,17 @@ export default {
     data() {
         return {
             showMoreCyril: false,
-			showMoreGabriele: false,
-			imgCyril: '/images/cyril_nb-min.jpg',
-			imgCyrilNb: '/images/cyril_nb-min.jpg',
-			imgCyrilColor: '/images/cyril-min.jpg',
-			imgGabriele: '/images/gabriele_nb-min.jpg',
-			imgGabrieleNb: '/images/gabriele_nb-min.jpg',
-			imgGabrieleColor: '/images/gabriele-min.jpg'
+            showMoreGabriele: false
+            // imgCyril: '/images/cyril_nb-min.jpg',
+            // imgCyrilNb: '/images/cyril_nb-min.jpg',
+            // imgCyrilColor: '/images/cyril-min.jpg',
+            // imgGabriele: '/images/gabriele_nb-min.jpg',
+            // imgGabrieleNb: '/images/gabriele_nb-min.jpg',
+            // imgGabrieleColor: '/images/gabriele-min.jpg'
         }
     },
     methods: {
         toggleShow(lawyer) {
-            // console.log('toggleShow: ', lawyer)
             if (lawyer === 'cyril') {
                 this.showMoreCyril = !this.showMoreCyril
             } else {
@@ -130,3 +122,12 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.image {
+    filter: grayscale(1);
+}
+.image:hover {
+    filter: grayscale(0);
+}
+</style>
