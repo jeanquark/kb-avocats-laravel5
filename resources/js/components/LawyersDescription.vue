@@ -21,11 +21,9 @@
 						Membre fondateur du Jeune Barreau Neuchâtelois dont il assume le service de permanence
 						des avocats de première heure, Cyril Kleger cultive un goût prononcé pour les lettres,
 						la presse et le sport.<br />
-						Ancien arbitre de première ligue de football, Cyril Kleger garde encore un contact
-						régulier avec le milieu du ballon rond et siège dans la Commission des arbitres de
-						l’ACVF en sa qualité de Chef d’instruction.<br />
+						Ancien arbitre de première ligue de football, Cyril Kleger garde encore un contact régulier avec le milieu du ballon rond en tant qu'instructeur arbitre et ancien chef d'instruction au sein de la Commission des arbitres de l’ACVF.<br />
 
-						<div class="text-center">
+						<div class="text-center mt-2">
 							<button type="button" class="btn btn-dark" @click="toggleShow('cyril')">
 								<span v-if="showMoreCyril">Moins
 									<font-awesome-icon icon="angle-up" /></span>
@@ -67,8 +65,8 @@
 						Inscrit au barreau de Neuchâtel depuis 2014, Gabriele Beffa est titulaire du Brevet d’Avocat Neuchâtelois ainsi qu’un CAS magistrature pénale. Durant plusieurs années, il a exercé en qualité de collaborateur au sein d’une Étude à La Chaux-de-Fonds avant d’aspirer, logiquement, au statut d’indépendant.<br />
 						Baigné depuis plusieurs années déjà dans la pratique du barreau, Me Gabriele Beffa offre des conseils avisés dans ses nombreux domaines d’expertise, se profilant notamment dans le contentieux en matière de bail à loyer et du droit du travail. Il jouit également de solides compétences sur des questions de droit administratif.<br />
 						Aguerri et doté d’un grand sens de l’anticipation, il en est devenu très habile procéduralement ce qui lui permet de conseiller et de défendre ses clients au mieux de leurs intérêts afin aussi de trouver des solutions pragmatiques pour des coûts raisonnables.<br />
-						Né en 1986, il achève tout son cursus dans le canton de Neuchâtel dont une Maîtrise en "Droit de la Santé et des Biotechnologies" en 2012. Également Juge d’instruction militaire, Gabriele Beffa n’en perd pas moins son côté facétieux. Voyageur hors-pair, il puise son énergie dans la nature et se ressource volontiers dans la lecture d’un polar ou dans des expériences culinaires dont il cultive le goût et le secret.
-						<div class="text-center">
+						Né en 1986, il achève tout son cursus dans le canton de Neuchâtel dont une Maîtrise en "Droit de la Santé et des Biotechnologies" en 2012. Ancien Juge d’instruction militaire et depuis promut comme auditeur, Gabriele Beffa n’en perd pas moins son côté facétieux. Voyageur hors-pair, il puise son énergie dans la nature et se ressource volontiers dans la lecture d’un polar ou dans des expériences culinaires dont il cultive le goût et le secret.
+						<div class="text-center mt-2">
 							<button type="button" class="btn btn-dark" @click="toggleShow('gabriele')">
 								<span v-if="showMoreGabriele">Moins
 									<font-awesome-icon icon="angle-up" /></span>
