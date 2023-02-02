@@ -3,10 +3,11 @@ name: Publish Website
 jobs:
   deploy-file-updates:
     name: Deploy file updates
-    # runs-on: ubuntu-latest
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    # runs-on: ubuntu-20.04
     steps:
-    - uses: actions/checkout@master
+    # - uses: actions/checkout@master
+    - uses: actions/checkout@v3
       with:
         fetch-depth: 2
     # - name: FTP-Deploy-Action
