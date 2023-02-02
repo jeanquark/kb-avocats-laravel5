@@ -58,8 +58,6 @@
 				<div class="card-body text-dark">
 					<h5 class="card-title text-center">Maître Gabriele Beffa</h5>
 					<div class="card-text" style="text-align: justify;">
-						<!--<img :src="imgGabriele" class="rounded float-left"
-							alt="Photo Gabriele Beffa" style="width: 47%; padding: 0px 20px 0px 0px;" @mouseover="imgGabriele = imgGabrieleColor" @mouseleave="imgGabriele = imgGabrieleNb" />-->
 							<img src="/images/gabriele-min.jpg" class="rounded float-left image"
 							alt="Photo Gabriele Beffa" style="width: 47%; padding: 0px 20px 0px 0px;" />
 						Inscrit au barreau de Neuchâtel depuis 2014, Gabriele Beffa est titulaire du Brevet d’Avocat Neuchâtelois ainsi qu’un CAS magistrature pénale. Durant plusieurs années, il a exercé en qualité de collaborateur au sein d’une Étude à La Chaux-de-Fonds avant d’aspirer, logiquement, au statut d’indépendant.<br />
