@@ -73,13 +73,15 @@
 					tout moment quelle que soit votre situation. Par son esprit d’entente, l’Étude se distingue par le
 					regard croisé que jette chaque associé sur votre affaire, spécificité qui représente une réelle
 					valeur ajoutée et contribue à la mise en œuvre de solutions rapides et efficaces.</p>
-				<p class="lead">Idéalement situé au centre-ville de Neuchâtel, en plein cœur de la zone piétonne, nous
-					vous
-					garantissons une rapide prise en charge, dans le strict respect des règles déontologiques notamment
-					du secret professionnel, en vous assurant un traitement individualisé de votre dossier.</p>
-				<p class="lead">Inscrits au barreau de Neuchâtel, nous plaidons également régulièrement devant les
-					juridictions
-					bernoises, fribourgeoises et vaudoises.</p>
+				<p class="lead">Nouvellement situé au 23 Faubourg de l’Hôpital, notre Étude vous accueille dans un environnement
+					pensé avec soin, au sein d'un immeuble historique du centre-ville de Neuchâtel, à quelques pas de
+					l’Hôtel judiciaire. Une place de parking est gratuitement à disposition de la clientèle dans la cour
+					arborisée de la propriété.
+					</p>
+				<p class="lead">Parce que chaque affaire présente des spécificités uniques, nous vous garantissons une rapide prise
+					en charge, dans le strict respect des règles déontologiques en vous assurant un traitement
+					individualisé de votre dossier. Nous accordons une grande attention au respect du secret
+					professionnel, du premier contact avec l’Etude à la clôture du dossier.</p>
 
 			</div>
 		</section>
@@ -99,9 +101,15 @@
 						indiquer avec précision les faits concernés. Toutes les demandes sont traitées dans le respect
 						le plus strict de la confidentialité et du secret professionnel.</p><br />
 
-					<div style="overflow: hidden; width: 100%; position: relative;"><iframe width="700" height="440"
+					<div style="overflow: hidden; width: 100%; position: relative;">
+						{{-- <iframe width="700" height="440"
 							src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Rue%20du%20Seillon%2010%2C%20Neuch%C3%A2tel+(KB%20Avocats)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed"
-							frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+							frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+						</iframe> --}}
+						<iframe width="700" height="440"
+							src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Fbg%20H%C3%B4pital%2023%202001%20Neuch%C3%A2tel+(KB%20Avocats)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed"
+							frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+						</iframe>
 						<div
 							style="position: absolute;width: 80%;bottom: 20px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;">
 						</div>
@@ -111,7 +119,7 @@
 						<div class="col-6">
 							<p style="text-font: 1.2em;">
 								<b>KB Avocats</b><br />
-								Rue du Seyon 10<br />
+								Fbg Hôpital 23<br />
 								Case postale<br />
 								2001 Neuchâtel<br />
 							</p>
@@ -162,6 +170,8 @@
 
 	<!-- VeeValidate -->
 	{{-- // <script src="https://cdn.jsdelivr.net/npm/vee-validate@latest/dist/vee-validate.js"></script> --}}
+
+	https://maps.google.com/maps?width=700&height=440&hl=en&q=Rue%20du%20Seillon%2010%2C%20Neuch%C3%A2tel+(KB%20Avocats)&ie=UTF8&t=&z=16&iwloc=B&output=embed
 </body>
 
 </html>
