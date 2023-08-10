@@ -73,7 +73,7 @@
 					tout moment quelle que soit votre situation. Par son esprit d’entente, l’Étude se distingue par le
 					regard croisé que jette chaque associé sur votre affaire, spécificité qui représente une réelle
 					valeur ajoutée et contribue à la mise en œuvre de solutions rapides et efficaces.</p>
-				<p class="lead">Nouvellement situé au 23 Faubourg de l’Hôpital, notre Étude vous accueille dans un environnement
+				<p class="lead">Nouvellement située au 23 Faubourg de l’Hôpital, notre Étude vous accueille dans un environnement
 					pensé avec soin, au sein d'un immeuble historique du centre-ville de Neuchâtel, à quelques pas de
 					l’Hôtel judiciaire. Une place de parking est gratuitement à disposition de la clientèle dans la cour
 					arborisée de la propriété.
